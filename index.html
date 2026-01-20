@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset ="UTF-8">
+    <meta name="author" content="Burçin AYYILDIZ">
+    <meta name="viewport" content="width=device-width,initial scale=1.0">
+    <title>RUH HALİNİ SEÇ</title>
+</head>
+<body>
+    <!--tanıtım-->
+    <h1>RUH HALİNİ SEÇ,KARTI GÖR</h1>
+    <p><i>Sevdiğim dizilerden yola çıkarak ruh hallerine uygun kartlar hazırladım.</i></p>
+    <br><br>
+    <hr>
+    <!--cinsiyet seçimi-->
+    <h2>ÖNCE CİNSİYETİNİ SEÇ </h2>
+    <button onclick="cinsiyetiniSec('kadin')">KADIN🩵</button>
+    <button onclick="cinsiyetiniSec('erkek')">erkek💙</button>
+    <p id="cinsiyetYazi"></p>
+
+    <hr>
+    <!--ruh hali seçimi-->
+    <h2>Ruh Halini Seç</h2>
+    <button onclick="uzgun()">Üzgün🥺</button>
+    <button onclick="sinirli()">Sinirli😤</button>
+    <button onclick="asik()">Aşık😍</button>
+    <button onclick="mutlu()">Mutlu🥳</button>
+    <button onclick="yorgun()">Yorgun😮‍💨</button>
+    <button onclick="depresif()">Depresif😶‍🌫️</button>
+    <hr>
+    <!--kartlar-->
+    <div id="kart" hidden>
+        <h3 id="baslik"></h3>
+        <img id="resim" width ="300"><br><br><br>
+        <strong><i>DİZİ: </i></strong>
+        <p id="dizi"></p>
+   
+    <div id="youtube" hidden >
+        <strong><i>Youtube: </i></strong>
+        <a href="https://www.youtube.com/watch?v=Iht75-LF7mE" target="_blank">
+            Videoyu aç.
+        </a>
+    </div>
+ </div>
+ 
+<script src="script.js"></script>
+</body>
+</html>
